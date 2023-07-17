@@ -1,6 +1,10 @@
 #include <stdio.h>
-
-int main()
+/**
+ * main - the main code block
+ *
+ * Return: 0
+ */
+int main(void)
 {
 	int a, b;
 

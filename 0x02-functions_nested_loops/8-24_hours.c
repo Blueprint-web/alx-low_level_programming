@@ -16,14 +16,25 @@ void jack_bauer(void)
 			{
 				for (d = 48; d <= 57; d++)
 				{
-					_putchar(a);
-					_putchar(b);
-					_putchar(':');
-					_putchar(c);
-					_putchar(d);
-					_putchar('\n');
+					if (a == 50 && d == 57 && c == 53 && b == 51)
+					{
+						_putchar(a);
+						_putchar(b);
+						_putchar(':');
+						_putchar(c);
+						_putchar(d);
+					} else
+					{
+						_putchar(a);
+						_putchar(b);
+						_putchar(':');
+						_putchar(c);
+						_putchar(d);	
+						_putchar('\n');
+					}
 				}
 			}
 		}
 	}
+	_putchar('\n');
 }

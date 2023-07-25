@@ -1,16 +1,22 @@
 #include <stdio.h>
 #include "main.h"
-
+/**
+ * print_array - funtion to print array
+ * @a: the array
+ * @n: the number of times
+ * Return: void
+ */
 void print_array(int *a, int n)
 {
 	int i;
 
 	for (i = 0; i < n; i++)
 	{
-		if (n - 1 == a[i])
+		if (i == n - 1)
 		{
 		printf("%d", a[i]);
-		} else
+		}
+		else
 		{
 			printf("%d, ", a[i]);
 		}

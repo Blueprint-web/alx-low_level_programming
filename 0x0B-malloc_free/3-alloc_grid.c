@@ -36,3 +36,4 @@ int **alloc_grid(int width, int height)
 			grid[j][k] = 0;
 	}
 	return (grid);
+}
